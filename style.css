@@ -1,0 +1,36 @@
+#parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#child{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(#f28650,#f5d1bf,#f5e9dc);
+    padding: 20px;
+    margin: 20px;
+    }
+#ISBN,#releasedDate{
+    text-align: center;
+    font-size: small;
+    font-family: 'Segoe UI';
+
+}
+#name{
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Gill Sans';
+    text-decoration: underline;
+}
+#nop{
+    text-align: right;
+    font-size: x-small;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#authors,#publisher{
+    text-align: center;
+    font-size: small;
+}
